@@ -1,0 +1,6 @@
+
+## What is Svelte?
+
+* A component-oriented web render library — like React or Vue
+* A compiler
+* Minimal runtime

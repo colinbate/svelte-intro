@@ -1,0 +1,20 @@
+## BigNumber.svelte
+
+```svelte
+<script>
+  export let foo = 0;
+</script>
+
+<div>
+  <span>{foo}</span>
+</div>
+
+<style>
+  div {
+    font-size: 3rem;
+    background-color: gray;
+    margin-bottom: 1rem;
+  }
+  span { color: #ff3e00; }
+</style>
+```

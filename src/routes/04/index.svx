@@ -1,0 +1,8 @@
+
+## Why Svelte?
+
+* Easy — good DX
+* Lightweight
+* Simple animations
+* Fast
+* Not React or Angular 😂

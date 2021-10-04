@@ -1,0 +1,6 @@
+<script>
+	import LiveCode from '$lib/components/LiveCode.svelte'
+	import Sample from './Sample.svelte'
+</script>
+
+<LiveCode><Sample /></LiveCode>

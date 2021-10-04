@@ -1,0 +1,10 @@
+## Various Svelte Apps I've Made
+
+* Hangman | https://hangman.bate.dev | https://github.com/colinbate/hangman
+* Bingo | https://bingo.bate.dev | https://github.com/colinbate/bingo
+* Flash Deck | https://flash.bate.dev | https://github.com/colinbate/flash
+* Yahtzee | https://yahtzee.bate.dev | https://github.com/colinbate/yahtzee
+* Number Squares | https://number-game.bate.dev | https://github.com/colinbate/number-game
+* Secret Agent | https://secretagent.io
+* ... and a bunch more
+* But most usefully is my template: https://github.com/colinbate/svelte-ts-tailwind-template

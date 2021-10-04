@@ -1,0 +1,11 @@
+
+## Outline
+
+* What is Svelte?
+* Why use Svelte?
+* Components
+* Setting up a project
+* Templates
+* Reactivity
+* Data management
+* Deploying your app
