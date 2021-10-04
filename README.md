@@ -8,4 +8,3 @@ Install dependencies and start the server
 npm install
 npm run dev
 ```
-

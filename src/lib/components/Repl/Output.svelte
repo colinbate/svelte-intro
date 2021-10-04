@@ -1,15 +1,15 @@
 <script>
-	export let compiled;
+  export let compiled;
 
-	let iframe;
+  let iframe;
 
-	function update(code) {
-		iframe.contentWindow.postMessage(code, '*');
-	}
+  function update(code) {
+    iframe.contentWindow.postMessage(code, '*');
+  }
 
-	$: iframe && compiled && update(compiled);
+  $: iframe && compiled && update(compiled);
 
-	const srcdoc = `
+  const srcdoc = `
 <!doctype html>
 <html>
     <head>
@@ -47,8 +47,8 @@
 <iframe class="borders" bind:this={iframe} title="Rendered Repl" {srcdoc} />
 
 <style>
-	iframe {
-		background-color: white;
-		flex: 1;
-	}
+  iframe {
+    background-color: white;
+    flex: 1;
+  }
 </style>

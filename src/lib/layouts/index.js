@@ -5,9 +5,9 @@ import Default from './Default.svelte';
 import DoubleColumn from './DoubleColumn.svelte';
 
 export default {
-	centered: Centered,
-	title: Title,
-	column: Column,
-	default: Default,
-	doublecolumn: DoubleColumn
+  centered: Centered,
+  title: Title,
+  column: Column,
+  default: Default,
+  doublecolumn: DoubleColumn,
 };

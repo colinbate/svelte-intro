@@ -1,16 +1,16 @@
 function color(node, params) {
-	const apply = (hsl) => {
-		const [hue = 0, sat = 0, lum = 0] = hsl.split(' ');
-		node.style.setProperty('--hue', hue);
-		node.style.setProperty('--sat', sat + '%');
-		node.style.setProperty('--lum', lum + '%');
-	};
+  const apply = (hsl) => {
+    const [hue = 0, sat = 0, lum = 0] = hsl.split(' ');
+    node.style.setProperty('--hue', hue);
+    node.style.setProperty('--sat', sat + '%');
+    node.style.setProperty('--lum', lum + '%');
+  };
 
-	apply(params);
+  apply(params);
 
-	return {
-		update: apply
-	};
+  return {
+    update: apply,
+  };
 }
 
 export default color;
